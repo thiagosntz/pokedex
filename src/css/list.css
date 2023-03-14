@@ -1,0 +1,53 @@
+.pokemon-list{
+   height: 700px;
+   width: 300px;
+   overflow-y: scroll;
+   padding-right: 10px;
+}
+
+.pokemon-list::-webkit-scrollbar {
+    width: 25px;              
+}
+
+.pokemon-list::-webkit-scrollbar-track {
+    background: #e4e4e4;        
+    border: 1px solid #6b727a;
+    border-radius: 8px;
+}
+
+.pokemon-list::-webkit-scrollbar-thumb {
+    background-color: #fa6668;    
+    border-radius: 8px;
+    border: 1px solid #6b727a;
+}
+
+.pokemon-list .pokemon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6b727a;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 0 10px;
+    cursor: pointer;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+}
+
+.pokemon-list .pokemon:hover{
+    transform: scale(1.05);
+}
+
+.pokemon-list .pokemon img{
+    width: 25%;
+}
+
+.pokemon-list .pokemon span{
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+
+.pokemon-list .pokemon.active{
+    background-color: #fa6668;
+}
