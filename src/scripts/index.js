@@ -48,13 +48,13 @@ const fetchPokemon = () => {
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li>HP: ${pokemon.stats[0].base_stat}</li>
-                                <li>Ataque: ${pokemon.stats[1].base_stat}</li>
-                                <li>Defesa: ${pokemon.stats[2].base_stat}</li>
-                                <li>Ataque ${pokemon.stats[3].base_stat}</li>
-                                <li>Defesa ${pokemon.stats[4].base_stat}</li>
-                                <li>Velocidade: ${pokemon.stats[5].base_stat}</li>
-                                <li>Total: ${statsTotal}</li>
+                                <li>HP ${pokemon.stats[0].base_stat}</li>
+                                <li>Ataque ${pokemon.stats[1].base_stat}</li>
+                                <li>Defesa ${pokemon.stats[2].base_stat}</li>
+                                <li>Ataque Esp. ${pokemon.stats[3].base_stat}</li>
+                                <li>Defesa Esp. ${pokemon.stats[4].base_stat}</li>
+                                <li>Velocidade ${pokemon.stats[5].base_stat}</li>
+                                <li>Total ${statsTotal}</li>
                             </ul>
                         </div>
 
