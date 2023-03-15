@@ -15,11 +15,18 @@
     .pokemon-card .card-image{
         width: 200px;
         height: 200px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .pokemon-card .card-info{
         padding: 60px 30px 30px;
         margin-top: -50px;
+    }
+
+    .pokemon-card .card-info .status ul li, .pokemon-card .card-info .skills p{
+        font-size: 13px;
     }
 
     .pokemon-card .card-info h3{
