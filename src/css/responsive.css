@@ -20,6 +20,10 @@
         margin-right: auto;
     }
 
+    .pokemon-card .type{
+        font-size: 13px;
+    }
+
     .pokemon-card .card-info{
         padding: 60px 30px 30px;
         margin-top: -50px;

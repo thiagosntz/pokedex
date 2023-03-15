@@ -41,6 +41,11 @@
 .pokemon-card .card-image img{
     max-height: 100%;
     height: 400px;
+    transition: 0.3s ease-in-out;
+}
+
+.pokemon-card .card-image img:hover{
+    transform: scale(1.08);
 }
 
 .pokemon-card .card-info{

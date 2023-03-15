@@ -62,7 +62,6 @@ const fetchPokemon = () => {
                             <h3>Habilidades</h3>
                             <p class="skills-list">
                                 ${pokemon.abilities.map(abilityInfo => abilityInfo.ability.name).join('<br>')}
-        
                             </p>
                         </div>
                     </div>
